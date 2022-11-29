@@ -5,6 +5,9 @@ class Person:
         self.age = age
         self.nationality = nationality
 
+    def print(self):
+        pass
+
 
 students = []
 
