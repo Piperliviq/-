@@ -6,8 +6,8 @@ class Person:
         self.nationality = nationality
 
     def print(self):
-        pass
-
+        print(f"Hello my name is {self.name} {self.family}.", f"I'm {self.age} years old.",
+              f"My nationality is {self.nationality}.")
 
 students = []
 
@@ -19,9 +19,8 @@ students.append(Bobi)
 students.append(Moni)
 students.append(Gosho)
 
-print(f"Hello my name is {Bobi.name} {Bobi.family}.",f"I'm {Bobi.age} years old.",f"My nationality is {Bobi.nationality}.")
-print(f"Hello my name is {Moni.name} {Moni.family}.",f"I'm {Moni.age} years old.",f"My nationality is {Moni.nationality}.")
-print(f"Hello my name is {Gosho.name} {Gosho.family}.",f"I'm {Gosho.age} years old.",f"My nationality is {Gosho.nationality}.")
-
+Bobi.print()
+Moni.print()
+Gosho.print()
 
 print(students)
